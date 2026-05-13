@@ -871,10 +871,11 @@ section { position: relative; }
   min-width: 100%;
 }
 .timeline-axis {
+  grid-column: 1 / -1;
   position: absolute;
-  top: 50%; left: 24px; right: 24px;
+  top: 50%; left: 0; right: 0;
   height: 2px;
-  background: linear-gradient(90deg, rgba(108,92,231,0.2) 0%, #6c5ce7 12%, #4a90d9 50%, #0984e3 88%, rgba(9,132,227,0.2) 100%);
+  background: linear-gradient(90deg, rgba(108,92,231,0.3), #6c5ce7 5%, #4a90d9 50%, #0984e3 95%, rgba(9,132,227,0.3));
   transform: translateY(-1px);
 }
 .tl-col {
@@ -1641,7 +1642,7 @@ section { position: relative; }
       <h1 class="hero-title reveal" data-delay="1">
         <span class="accent">방송통신</span><br/>
         통합 솔루션<br/>
-        <span style="font-size: 0.4em; opacity: 0.85;">(주)이온</span>
+        <span style="font-size: 0.5em; opacity: 0.85;">(주)이온</span>
       </h1>
 
       <div class="hero-wave-sm reveal" data-delay="2" id="hero-wave-sm" aria-hidden="true"></div>
